@@ -1,0 +1,107 @@
+/* CSS reset to create a more consistent look across different browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    A1c3D1
+    B39BC8
+    F0EBF4
+    F172A1
+    E64398
+}
+
+body {
+    font-family: Garamond, serif; /* Use a basic, widely-supported font */
+    line-height: 1.6; /* A basic line-height for readability */
+    color: #fff; /* A basic text color that's not too harsh */
+    background-color: #fff; /* A basic background color */
+}
+
+/* Add your custom CSS below this line */
+
+.banner{
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(rgba(230,67,152,0.75),rgba(230,67,152,0.75)),url('https://t4.ftcdn.net/jpg/06/34/20/95/360_F_634209599_lZxxjbroqG2CQJj7bRLdRyluQZ2l0PLl.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.title{
+    text-align: center;
+    padding: 200px;
+    font-size: 50px;
+    letter-spacing: 2;
+}
+
+.sub{
+    text-align: center;
+    padding: 220px;
+    color: blue;
+    z-index: 1;
+
+}
+
+li{
+    display: inline-block;
+    width: 80px;
+}
+
+li a{
+    color: #F0EBF4;
+    text-decoration: none;
+}
+
+.search{
+    margin: -200px; 
+}
+
+.search-input{
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+    height: 30px;
+    font-family: 'sans-serif';
+}
+
+.main{
+    position: absolute;
+    color: #B39BC8;
+    text-align: center;
+
+}
+
+.main p{
+    text-align: justify;
+    color: gray;
+}
+img{
+    width: 380px;
+    height: 380px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-top: 30px;
+}
+
+.order_form{
+    clear: both;
+    width: 700px;
+    padding-top: 40px;
+    background-color: #F0EBF4 ;
+}
+
+.complementary{
+    color: black;
+    
+}
+
+/* footer{
+    color: black;
+    position:relative;
+    padding: ;
+} */
